@@ -1,0 +1,23 @@
+# Local Isaac Sim configuration and Python environment
+/.isaac-sim-path
+/.venv/
+/venv/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+
+# Generated scenes and rendered output
+/Workshop*.usdc
+/.Workshop*.usdc
+/renders/*
+!/renders/xiangqi-preview.jpg
+!/renders/xiangqi-demo.webp
+
+# Local diagnostics and desktop metadata
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store

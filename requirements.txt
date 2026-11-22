@@ -1,0 +1,8 @@
+# Scene authoring, verification and video encoding, CPython 3.12 (Windows x86-64).
+# Isaac Sim uses its own Python runtime for viewport playback and RTX rendering.
+numpy==2.5.5
+scipy==1.18.1
+mujoco-core==4.0.1
+usd-core==26.11
+opencv-python==5.1.0.95
+imageio-ffmpeg==0.8.1
